@@ -19,7 +19,7 @@ export default function Footer() {
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-3 gap-12 mb-12">
           <div>
-            <h3 className="font-serif text-2xl font-bold mb-4">Pastarella</h3>
+            <h3 className="font-serif text-2xl font-bold mb-4">PIAZZA</h3>
             <p className="text-background/70 text-sm leading-relaxed">
               Authentic Italian cuisine crafted with love, tradition, and the finest ingredients since 1987.
             </p>
@@ -53,7 +53,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-background/20 pt-8 text-center">
-          <p className="text-background/50 text-sm">© 2025 Pastarella. All rights reserved.</p>
+          <p className="text-background/50 text-sm">© 2025 PIAZZA. All rights reserved.</p>
         </div>
       </div>
     </footer>
