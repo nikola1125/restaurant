@@ -30,7 +30,7 @@ export default function HeroSection() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="font-serif text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-6"
         >
-          PIAZZA
+          Portiku
         </motion.h1>
         <motion.p
           initial={{ opacity: 0, y: 20 }}

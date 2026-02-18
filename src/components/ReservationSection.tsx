@@ -41,9 +41,9 @@ export default function ReservationSection() {
 
   const onSubmit = (data: FormData) => {
     // Store locally
-    const reservations = JSON.parse(localStorage.getItem("piazza-reservations") || "[]");
+    const reservations = JSON.parse(localStorage.getItem("portiku-reservations") || "[]");
     reservations.push({ ...data, date: data.date.toISOString(), createdAt: new Date().toISOString() });
-    localStorage.setItem("piazza-reservations", JSON.stringify(reservations));
+    localStorage.setItem("portiku-reservations", JSON.stringify(reservations));
 
     setSubmitted(true);
     toast({ title: "Reservation Confirmed! 🎉", description: `See you on ${format(data.date, "PPP")} at ${data.time}.` });

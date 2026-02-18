@@ -14,7 +14,7 @@ export default function AboutSection() {
         <div className="overflow-hidden rounded-lg shadow-xl">
           <img
             src={aboutImg}
-            alt="Chef making fresh pasta at PIAZZA"
+            alt="Chef making fresh pasta at Portiku"
             className="w-full h-[400px] object-cover hover:scale-105 transition-transform duration-500"
             loading="lazy"
           />
@@ -27,14 +27,14 @@ export default function AboutSection() {
             A Family Tradition Since 1987
           </h2>
           <p className="text-muted-foreground leading-relaxed mb-4">
-            PIAZZA was born from Nonna Rosa's kitchen in the heart of Tuscany.
+            Portiku was born from Nonna Rosa's kitchen in the heart of Tuscany.
             For over three decades, we've been crafting fresh pasta daily using only
             the finest local ingredients and time-honored recipes passed down through
             generations.
           </p>
           <p className="text-muted-foreground leading-relaxed">
             Every dish tells a story — of sun-ripened tomatoes, hand-rolled dough,
-            and the warmth of an Italian family gathering. Step into PIAZZA and
+            and the warmth of an Italian family gathering. Step into Portiku and
             let us take you on a culinary journey through Italy.
           </p>
         </div>
